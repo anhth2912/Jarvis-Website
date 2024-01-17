@@ -1,0 +1,13 @@
+- [ ] Fix use correct class without overriding color
+- [ ] Add help text for each field input
+- [ ] Use correct color for Delete Confirmation Modal
+- [ ] Use correct title & content for Delete Confirmation Modal
+- [ ] Create User Edit Screen
+- [ ] Use TextArea for Description field
+- [ ] Show version in the footer
+- [ ] Add Search Input for each list screen
+- [ ] Fix incorrect title for Edit Screen
+- [ ] Fix incorrect import order
+- [ ] Fix preview video not showing
+- [ ] Use dayjs with utc extension for date displaying/manipulating
+- [ ] Add color column in Video Channel List/Detail

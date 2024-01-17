@@ -1,0 +1,11 @@
+{
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "cSpell.words": ["definitelytyped", "ulid", "nanoid", "validators", "healthz"],
+  "files.trimTrailingWhitespace": true,
+  "editor.codeLens": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

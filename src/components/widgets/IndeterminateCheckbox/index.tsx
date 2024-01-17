@@ -1,0 +1,18 @@
+import { HTMLProps, useEffect, useRef } from 'react'
+
+export const IndeterminateCheckbox = ({
+  indeterminate,
+  className = '',
+  ...rest
+}: { indeterminate?: boolean } & HTMLProps<HTMLInputElement>) => {
+  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+  const ref = useRef<HTMLInputElement>(null!)
+
+  useEffect(() => {
+    if (typeof indeterminate === 'boolean') {
+      ref.current.indeterminate = !rest.checked && indeterminate
+    }
+  }, [ref, indeterminate])
+
+  return <input type="checkbox" ref={ref} className={className + ' cursor-pointer'} {...rest} />
+}

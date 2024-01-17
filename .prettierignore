@@ -1,0 +1,6 @@
+dist
+public
+.next
+pnpm-lock.yaml
+tsconfig.tsbuildinfo
+node_modules
