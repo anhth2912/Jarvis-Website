@@ -1,7 +1,6 @@
 import React from 'react'
 import { SectionTitle } from '../../common/SectionTitle'
 import { Contact } from './components/Contact'
-import Map from '../../common/Map'
 
 export const ContactScreen: React.FC = () => {
   return (
