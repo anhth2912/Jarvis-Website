@@ -25,7 +25,7 @@ export const Contact: React.FC = () => {
                 type="email"
                 id="email"
                 className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
-                placeholder="name@flowbite.com"
+                placeholder="name@gmail.com"
               />
             </div>
             <div className="mb-5 col-span-4 lg:col-span-2">
