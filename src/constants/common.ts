@@ -15,12 +15,6 @@ export const navbarTab = [
     collections: [],
   },
   {
-    id: FEATURE.VIDEO_DEMO,
-    name: 'Video Demo',
-    link: '/video-demo',
-    collections: [],
-  },
-  {
     id: FEATURE.CASE_STUDIES_STORIES,
     name: 'Case studies & Stories',
     link: '/case-stories-studies',
@@ -53,7 +47,7 @@ export const contacts = [
   },
   {
     src: '/icons/mail.svg',
-    title: 'support@ibasevn.com',
+    title: 'contact@jarvis.com.vn ',
   },
 ]
 
@@ -156,6 +150,18 @@ export const services = [
 ]
 
 export const partnersLogo = [
+  'https://ibasevn.com/image/cache/catalog/output-onlinepngtools%20(1)-400x200.png',
+  'https://ibasevn.com/image/cache/catalog/output-onlinepngtools-1-400x200.png',
+  'https://ibasevn.com/image/cache/catalog/download-400x200.png',
+  'https://ibasevn.com/image/cache/catalog/ABBANK-400x200.png',
+  'https://ibasevn.com/image/cache/catalog/output-onlinepngtools2-400x200.png',
+  'https://ibasevn.com/image/cache/catalog/output-onlinepngtools-2-400x200.png',
+  'https://ibasevn.com/image/cache/catalog/output-onlinepngtools%20(1)-400x200.png',
+  'https://ibasevn.com/image/cache/catalog/output-onlinepngtools-1-400x200.png',
+  'https://ibasevn.com/image/cache/catalog/download-400x200.png',
+  'https://ibasevn.com/image/cache/catalog/ABBANK-400x200.png',
+  'https://ibasevn.com/image/cache/catalog/output-onlinepngtools2-400x200.png',
+  'https://ibasevn.com/image/cache/catalog/output-onlinepngtools-2-400x200.png',
   'https://ibasevn.com/image/cache/catalog/output-onlinepngtools%20(1)-400x200.png',
   'https://ibasevn.com/image/cache/catalog/output-onlinepngtools-1-400x200.png',
   'https://ibasevn.com/image/cache/catalog/download-400x200.png',

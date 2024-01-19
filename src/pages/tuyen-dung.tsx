@@ -1,7 +1,14 @@
 import React from 'react'
 import type { NextPage } from 'next'
 import { MainLayout } from '@layout/MainLayout'
-import { RecruitmentScreen } from '../components/screens/RecruitmentScreen'
+import dynamic from 'next/dynamic'
+
+const RecruitmentScreen = dynamic(
+  () => import('../components/screens/RecruitmentScreen').then((mod) => mod.RecruitmentScreen),
+  {
+    ssr: false,
+  },
+)
 
 const RecruitmentPage: NextPage = () => (
   <MainLayout title="Jarvis">

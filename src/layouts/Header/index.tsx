@@ -2,8 +2,11 @@ import { useRef, useState } from 'react'
 import { useClickOutside } from '@hooks/useClickOutside'
 import { contacts, navbarTab, socialAccounts } from '../../constants/common'
 import { useWindowSize } from '../../hooks/userWindowSize'
+import { useWindowScrollPositions } from '../../hooks/useWindowScrollPositions'
 
 const MIN_WINDOW_WIDTH = 1024
+const TOP_BAR_HEIGHT = 45
+
 export const Header = () => {
   const [toggleNavBar, setToggleNavBar] = useState<boolean>(false)
 
@@ -11,10 +14,14 @@ export const Header = () => {
   const contentRef = useRef<HTMLDivElement>(null)
   useClickOutside(contentRef, toggleRef, toggleNavBar, () => setToggleNavBar(false))
   const size = useWindowSize()
+  const { scrollY } = useWindowScrollPositions()
 
   return (
     <>
-      <div id="top-bar" className="hidden lg:block bg-[#2A2A2A] text-[#fff]">
+      <div
+        id="top-bar"
+        className={`hidden lg:block bg-[#2A2A2A] text-[#fff] ${scrollY > TOP_BAR_HEIGHT ? 'mb-[95px]' : ''}`}
+      >
         <div className="container mx-auto">
           <div className="flex justify-between items-center h-[45px]">
             <div className="">
@@ -61,10 +68,10 @@ export const Header = () => {
         </div>
       </div>
 
-      <div className="">
+      <div className={`${scrollY > TOP_BAR_HEIGHT ? 'fixed top-0 left-0 right-0 z-30' : ''}`}>
         <nav className="bg-white border-gray-20 h-[95px] ">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4 container h-full relative">
-            <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
               <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
               <span className="self-center text-2xl font-semibold whitespace-nowrap">Jarvis</span>
             </a>

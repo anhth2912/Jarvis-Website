@@ -14,14 +14,8 @@ export const MainLayout: React.FC<Props> = React.memo(({ title, children }) => {
       <Head>
         <title>{title}</title>
       </Head>
-      <main className="w-full h-screen flex overflow-hidden">
-        {/* {isShowSideBar || isLgScreen ? <SideBar contentRef={contentRef} setIsShowSideBar={setIsShowSideBar} /> : null} */}
-        {/* {loading ? (
-          <div className="w-screen h-screen flex justify-center items-center">
-            <Loading />
-          </div>
-        ) : ( */}
-        <div className="w-full bg-[#f1f5f9] flex flex-col relative overflow-auto">
+      <main className="w-full h-screen flex">
+        <div className="w-full bg-[#f1f5f9] flex flex-col relative">
           <Header />
           <div className="pb-10">{children}</div>
           <Footer />

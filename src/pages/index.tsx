@@ -1,7 +1,11 @@
 import React from 'react'
 import type { NextPage } from 'next'
+import dynamic from 'next/dynamic'
 import { MainLayout } from '@layout/MainLayout'
-import { HomeScreen } from '../components/screens/HomeScreen'
+
+const HomeScreen = dynamic(() => import('../components/screens/HomeScreen').then((mod) => mod.HomeScreen), {
+  ssr: false,
+})
 
 const Home: NextPage = () => (
   <MainLayout title="Jarvis">

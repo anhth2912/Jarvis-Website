@@ -130,9 +130,9 @@ devDependencies:
   '@types/cookie':
     specifier: ^0.5.1
     version: 0.5.1
-  '@types/googlemaps':
-    specifier: ^3.43.3
-    version: 3.43.3
+  '@types/google.maps':
+    specifier: ^3.54.3
+    version: 3.54.3
   '@types/jsonwebtoken':
     specifier: ^9.0.2
     version: 9.0.2
@@ -1027,9 +1027,8 @@ packages:
     resolution: {integrity: sha512-COUnqfB2+ckwXXSFInsFdOAWQzCCx+a5hq2ruyj+Vjund94RJQd4LG2u9hnvJrTgunKAaax7ancBYlDrNYxA0g==}
     dev: true
 
-  /@types/googlemaps@3.43.3:
-    resolution: {integrity: sha512-ZWNoz/O8MPEpiajvj7QiqCY8tTLFNqNZ/a+s+zTV58wFVNAvvqV4bdGfnsjTb5Cs4V6wEsLrX8XRhmnyYJ2Tdg==}
-    deprecated: 'Types for the Google Maps browser API have moved to @types/google.maps. Note: these types are not for the googlemaps npm package, which is a Node API.'
+  /@types/google.maps@3.54.3:
+    resolution: {integrity: sha512-Civz4GMtuzGQbic9J9OSpzNHaVA+YxwvBPfB98GXa2YwH/6Zb99+PPSqKQVniHIB4hOzPl46hmZiFpsckHkGIQ==}
     dev: true
 
   /@types/json-schema@7.0.12:

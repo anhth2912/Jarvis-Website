@@ -29,7 +29,8 @@ export const NewsAndEvent: React.FC = () => {
                   <div className="relative mt-6">
                     <Link
                       href="#"
-                      className="font-medium py-2 px-5 rounded-md border-2 border-solid border-[#D21E2B] inline-block bg-transparent text-[#D21E2B]"
+                      className="font-semibold py-2 px-5 rounded-md border-2 border-solid border-[#D21E2B] inline-block
+                       bg-transparent text-[#D21E2B] hover:bg-[#D21E2B] hover:text-[#fff] transition-all duration-300"
                     >
                       Xem thêm
                     </Link>

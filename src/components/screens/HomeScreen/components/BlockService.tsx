@@ -39,7 +39,7 @@ export const BlockService: React.FC = () => {
                   <div className="!text-center">
                     <Link
                       href={service.redirect}
-                      className="inline-block text-white text-sm font-medium bg-[#111] rounded-[10px] p-4 w-full"
+                      className="inline-block text-white text-sm font-medium bg-[#111] rounded-[10px] p-4 w-full hover:bg-[#D21E2B] transition-all duration-300"
                       style={{
                         marginTop: `${
                           15 +

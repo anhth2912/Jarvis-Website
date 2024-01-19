@@ -37,7 +37,7 @@ export const Carousel = ({ sliders }: Props) => {
             return (
               <div
                 key={index}
-                className=" w-full h-[205px] md:h-[850px] marker:h- background-image"
+                className=" w-full h-[205px] md:h-[850px] background-image"
                 style={{ backgroundImage: 'url(' + item + ')' }}
               ></div>
             )
