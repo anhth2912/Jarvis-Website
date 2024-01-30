@@ -16,7 +16,7 @@ export const MainContent: React.FC = () => {
                   <div className="">
                     <Link href="#" className="text-[#111] duration-300 bg-transparent cursor-pointer">
                       <Image
-                        src="https://ibasevn.com/image/cache/catalog/Tin%20tuc/IA-400x300.png"
+                        src="https://ibasevn.com/image/cache/catalog/Tin%20tuc/275890497_4954498994665398_992080397421338695_n-400x300.png"
                         alt="logo"
                         width={512}
                         height={512}

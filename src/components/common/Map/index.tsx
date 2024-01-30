@@ -7,7 +7,6 @@ type Props = {
 
 export const Map: React.FC<Props> = ({ address }) => {
   const mapRef = useRef<HTMLDivElement>(null)
-  console.log('===========================', process.env.GOOGLE_MAPS_API_KEY)
   useEffect(() => {
     const initMap = async () => {
       const loader = new Loader({

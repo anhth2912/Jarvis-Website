@@ -25,7 +25,8 @@ export const listNews = [
   },
   {
     title: 'Xác thực tổng quát: Tối đa hóa hiệu quả với AI tạo sinh',
-    image: 'https://ibasevn.com/image/cache/catalog/Tin%20tuc/IA-400x300.png',
+    image:
+      'https://ibasevn.com/image/cache/catalog/Tin%20tuc/275890497_4954498994665398_992080397421338695_n-400x300.png',
     date: '13-12-2023',
     day: '13',
     month: '12',
@@ -60,7 +61,8 @@ export const listNews = [
   },
   {
     title: 'Cập nhật tính năng AI mới nhất tại bản phát hành UiPath 2023.10',
-    image: 'https://ibasevn.com/image/cache/catalog/Tin%20tuc/IA-400x300.png',
+    image:
+      'https://ibasevn.com/image/cache/catalog/Tin%20tuc/275890497_4954498994665398_992080397421338695_n-400x300.png',
     date: '12-11-2023',
     day: '12',
     month: '11',
@@ -96,7 +98,8 @@ export const listNews = [
   },
   {
     title: '5 thông báo đáng chú ý hàng đầu về AI từ UiPath FORWARD VI',
-    image: 'https://ibasevn.com/image/cache/catalog/Tin%20tuc/IA-400x300.png',
+    image:
+      'https://ibasevn.com/image/cache/catalog/Tin%20tuc/275890497_4954498994665398_992080397421338695_n-400x300.png',
     date: '20-10-2023',
     day: '20',
     month: '10',
@@ -131,7 +134,8 @@ export const listNews = [
   },
   {
     title: 'Ba nguyên tắc để sử dụng AI tại nơi làm việc một cách có trách nhiệm',
-    image: 'https://ibasevn.com/image/cache/catalog/Tin%20tuc/IA-400x300.png',
+    image:
+      'https://ibasevn.com/image/cache/catalog/Tin%20tuc/275890497_4954498994665398_992080397421338695_n-400x300.png',
     date: '30-09-2023',
     day: '30',
     month: '09',

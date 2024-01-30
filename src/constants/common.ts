@@ -190,7 +190,8 @@ export const defaultNews = [
     month: '12',
   },
   {
-    banner: 'https://ibasevn.com/image/cache/catalog/Tin%20tuc/IA-620x465.png',
+    banner:
+      'https://ibasevn.com/image/cache/catalog/Tin%20tuc/277224434_4976192269162737_7618110274706957426_n-620x465.png',
     title: 'Xác thực tổng quát: Tối đa hóa hiệu quả với AI tạo sinh',
     content:
       'Không có một công cụ nào có thể thực hiện tốt mọi công việc. Phạm vi của AI lớn hơn nhiều so với GPT và bằng cách nhìn vào bối cảnh AI rộng hơn, doanh nghiệp có thể tìm thấy nhiều công cụ để bổ sung và…',
