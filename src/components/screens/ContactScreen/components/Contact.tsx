@@ -45,7 +45,7 @@ export const Contact: React.FC = () => {
             <div className="border-b border-b-[#ECECEC] py-[25px] mb-0 duration-500">
               <div className="grid grid-cols-12">
                 <div className="col-span-4 md:col-span-2 w-[60px] h-[60px] flex justify-center items-center bg-[#D21E2B] text-[#fff] rounded-full">
-                  <i className="fa fa-phone"></i>
+                  <i className="fa fa-envelope-open"></i>
                 </div>
                 <div className="col-span-8 md:col-span-10 ml-6">
                   <h4 className="text-[#111] text-lg font-semibold mb-[10px]">Email</h4>
@@ -56,7 +56,7 @@ export const Contact: React.FC = () => {
             <div className="border-b border-b-[#ECECEC] py-[25px] mb-0 duration-500">
               <div className="grid grid-cols-12">
                 <div className="col-span-4 md:col-span-2 w-[60px] h-[60px] flex justify-center items-center bg-[#D21E2B] text-[#fff] rounded-full">
-                  <i className="fa fa-phone"></i>
+                  <i className="fa fa-globe"></i>
                 </div>
                 <div className="col-span-8 md:col-span-10 ml-6">
                   <h4 className="text-[#111] text-lg font-semibold mb-[10px]">Địa chỉ</h4>

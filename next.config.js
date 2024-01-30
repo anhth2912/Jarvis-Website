@@ -16,15 +16,6 @@ const nextConfig = {
         hostname: '**',
       },
     ],
-    domains: [
-      's.yimg.com',
-      'media.zenfs.com',
-      'www.cnet.com',
-      'secure3.vncdn.vn',
-      'finance.yahoo.com',
-      'localhost',
-      '10.2.43.105',
-    ],
   },
   env: {
     GOOGLE_MAPS_API_KEY: process.env.GOOGLE_MAPS_API_KEY,
