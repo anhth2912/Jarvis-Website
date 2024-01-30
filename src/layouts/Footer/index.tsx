@@ -21,8 +21,8 @@ export const Footer: React.FC = () => {
                 </li>
                 <li className="text-[15px] font-normal text-[#aaa] py-[6px] list-none flex gap-3">
                   <i className="fa fa-envelope-o" aria-hidden="true"></i>
-                  <a href="mailto:support@ibasevn.com" className="hover-style-link">
-                    support@ibasevn.com
+                  <a href="mailto:support@jarvis.com" className="hover-style-link">
+                    support@jarvis.com
                   </a>
                 </li>
                 <li className="text-[15px] font-normal text-[#aaa] py-[6px] list-none flex gap-3">
