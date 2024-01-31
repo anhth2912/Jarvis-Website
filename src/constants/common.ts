@@ -43,7 +43,7 @@ export const navbarTab = [
 export const contacts = [
   {
     src: '/icons/phone.svg',
-    title: '+84 975 260 188',
+    title: '+84 987 654 321',
   },
   {
     src: '/icons/mail.svg',

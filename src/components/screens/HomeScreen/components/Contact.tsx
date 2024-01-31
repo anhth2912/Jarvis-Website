@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Contact: React.FC = () => {
   return (
-    <div className="relative py-24">
+    <div data-aos="fade-up" className="relative py-24">
       <div className="container mx-auto">
         <div className="mb-3 text-[#fff] !text-center">
           <h2 className="text-[#000] text-[42px] leading-snug mb-3">Nhập thông tin của bạn</h2>
@@ -23,9 +23,8 @@ export const Contact: React.FC = () => {
               </label>
               <input
                 type="email"
-                id="email"
+                id="fullName"
                 className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
-                placeholder="name@gmail.com"
               />
             </div>
             <div className="mb-5 col-span-4 lg:col-span-2">
@@ -33,9 +32,10 @@ export const Contact: React.FC = () => {
                 Email
               </label>
               <input
-                type="password"
-                id="password"
+                type="email"
+                id="email"
                 className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
+                placeholder="name@gmail.com"
               />
             </div>
 
@@ -44,8 +44,8 @@ export const Contact: React.FC = () => {
                 Số Điện Thoại
               </label>
               <input
-                type="password"
-                id="password"
+                type="text"
+                id="phoneNumber"
                 className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
               />
             </div>

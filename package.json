@@ -29,6 +29,7 @@
     "@tanstack/react-query-persist-client": "^4.32.0",
     "@tanstack/react-table": "^8.9.3",
     "@vercel/speed-insights": "^1.0.8",
+    "aos": "3.0.0-beta.6",
     "axios": "^1.4.0",
     "classnames": "^2.3.2",
     "cookie": "^0.5.0",
@@ -58,6 +59,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.7",
     "@commitlint/config-conventional": "^17.6.7",
+    "@types/aos": "^3.0.7",
     "@types/cookie": "^0.5.1",
     "@types/google.maps": "^3.54.3",
     "@types/jsonwebtoken": "^9.0.2",

@@ -5,7 +5,7 @@ import { defaultNews } from '../../../../constants/common'
 export const NewsAndEvent: React.FC = () => {
   return (
     <div className="py-5 bg-[#fefefe] ">
-      <div className="container mx-auto">
+      <div data-aos="zoom-in" className="container mx-auto">
         <div className="mb-3">
           <h4 className="relative text-3xl font-semibold text-[#111] mb-3">Tin tức - sự kiện</h4>
           <div className="section-heading-line" />

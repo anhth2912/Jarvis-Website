@@ -17,7 +17,7 @@ export const BlockService: React.FC = () => {
         </div>
         <div className="grid grid-cols-12 gap-10 mt-12">
           {services.map((service, index) => (
-            <div key={index} className="col-span-12 sm:col-span-4">
+            <div data-aos="fade-down" data-aos-easing="linear" key={index} className="col-span-12 sm:col-span-4">
               <div className="relative rounded-[10px] my-4 overflow-hidden bg-[#fff] shadow-xl">
                 <div className="bg-[#111] text-center px-[10px] pb-5">
                   <h5 className="relative text-[#111] font-medium inline-block mr-[-7px] text-center text-[17px] bg-[#fff] rounded-b-[15px] py-[5px] px-[15px]" />

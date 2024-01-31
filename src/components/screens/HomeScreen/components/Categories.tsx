@@ -11,7 +11,12 @@ export const Categories: React.FC = () => {
       </div>
       <div className="flex justify-between flex-wrap mt-20">
         {categories.map((category, index) => (
-          <div key={index} className="lg:w-[30%] md:w-[50%] flex gap-3 my-[30px]">
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            key={index}
+            className="lg:w-[30%] md:w-[50%] flex gap-3 my-[30px]"
+          >
             <div className="category-icon w-[80px] h-[80px] flex justify-center items-center rounded-full flex-shrink-0">
               <Image src={category.icon} alt="icon-arrow-right" width={40} height={40} />
             </div>

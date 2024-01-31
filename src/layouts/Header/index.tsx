@@ -3,6 +3,7 @@ import { useClickOutside } from '@hooks/useClickOutside'
 import { contacts, navbarTab, socialAccounts } from '../../constants/common'
 import { useWindowSize } from '../../hooks/userWindowSize'
 import { useWindowScrollPositions } from '../../hooks/useWindowScrollPositions'
+import Image from 'next/image'
 
 const MIN_WINDOW_WIDTH = 1024
 const TOP_BAR_HEIGHT = 45
@@ -34,14 +35,14 @@ export const Header = () => {
                 <ul className="flex gap-14 text-[13px]">
                   {contacts.map((item, index) => (
                     <li key={index} className="flex gap-1">
-                      <img
+                      <Image
                         src={item.src}
                         className="fill-current hover:text-green-600"
                         width={13}
                         height={13}
                         alt="social media"
                       />
-                      <a href="tel:+84 975 260 188">{item.title}</a>
+                      <a href="tel:+84 987 654 321">{item.title}</a>
                     </li>
                   ))}
                 </ul>
@@ -52,7 +53,7 @@ export const Header = () => {
                 {socialAccounts.map((item, index) => (
                   <li key={index}>
                     <a href={item.href} target="_blank">
-                      <img
+                      <Image
                         src={item.src}
                         className="fill-current hover:text-green-600"
                         width={13}
@@ -72,7 +73,13 @@ export const Header = () => {
         <nav className="bg-white border-gray-20 h-[95px] ">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4 container h-full relative">
             <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-              <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
+              <Image
+                src="https://flowbite.com/docs/images/logo.svg"
+                className="h-8 w-auto"
+                width={32}
+                height={32}
+                alt="Jarvis logo"
+              />
               <span className="self-center text-2xl font-semibold whitespace-nowrap">Jarvis</span>
             </a>
             <button
