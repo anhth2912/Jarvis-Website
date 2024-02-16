@@ -42,7 +42,7 @@ export const Header = () => {
                         height={13}
                         alt="social media"
                       />
-                      <a href="tel:+84 987 654 321">{item.title}</a>
+                      <a href="tel:+84 349 673 836">{item.title}</a>
                     </li>
                   ))}
                 </ul>

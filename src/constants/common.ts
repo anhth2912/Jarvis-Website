@@ -43,11 +43,11 @@ export const navbarTab = [
 export const contacts = [
   {
     src: '/icons/phone.svg',
-    title: '+84 987 654 321',
+    title: '+84 349 673 836',
   },
   {
     src: '/icons/mail.svg',
-    title: 'contact@jarvis.com.vn ',
+    title: 'contact@jarvis.com.vn',
   },
 ]
 
@@ -57,16 +57,16 @@ export const socialAccounts = [
     href: 'https://www.facebook.com',
     title: 'Facebook Jarvis',
   },
-  {
-    src: '/icons/twitter.svg',
-    href: 'https://twitter.com/picgen_ai',
-    title: 'Twitter Jarvis',
-  },
-  {
-    src: '/icons/discord.svg',
-    href: ' https://discord.gg/zvZr8aY68X',
-    title: 'Discord Jarvis',
-  },
+  // {
+  //   src: '/icons/twitter.svg',
+  //   href: 'https://twitter.com/picgen_ai',
+  //   title: 'Twitter Jarvis',
+  // },
+  // {
+  //   src: '/icons/discord.svg',
+  //   href: ' https://discord.gg/zvZr8aY68X',
+  //   title: 'Discord Jarvis',
+  // },
   {
     src: '/icons/telegram.svg',
     href: 'https://t.me/picgenai',
