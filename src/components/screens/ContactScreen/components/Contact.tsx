@@ -38,7 +38,7 @@ export const Contact: React.FC = () => {
                 </div>
                 <div className="col-span-8 md:col-span-10 ml-6">
                   <h4 className="text-[#111] text-lg font-semibold mb-[10px]">Điện thoại</h4>
-                  <p className="text-[#999] text-[15px] font-medium leading0[1.7]">+84 975 260 188</p>
+                  <p className="text-[#999] text-[15px] font-medium leading0[1.7]">+84 349 673 836</p>
                 </div>
               </div>
             </div>
@@ -49,7 +49,7 @@ export const Contact: React.FC = () => {
                 </div>
                 <div className="col-span-8 md:col-span-10 ml-6">
                   <h4 className="text-[#111] text-lg font-semibold mb-[10px]">Email</h4>
-                  <p className="text-[#999] text-[15px] font-medium leading0[1.7]">Contact@jarvis.com.vn</p>
+                  <p className="text-[#999] text-[15px] font-medium leading0[1.7]">contact@jarvis.com.vn</p>
                 </div>
               </div>
             </div>
@@ -59,7 +59,7 @@ export const Contact: React.FC = () => {
                   <i className="fa fa-globe"></i>
                 </div>
                 <div className="col-span-8 md:col-span-10 ml-6">
-                  <h4 className="text-[#111] text-lg font-semibold mb-[10px]">Địa chỉ</h4>
+                  <h4 className="text-[#111] text-lg font-semibold mb-[10px]">Địa chỉ văn phòng</h4>
                   <p className="text-[#999] text-[15px] font-medium leading0[1.7]">
                     Số 99 Hoàng Ngân, Phường Nhân Chính, Quận Thanh Xuân, Thành phố Hà Nội
                   </p>

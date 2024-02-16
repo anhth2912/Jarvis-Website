@@ -38,7 +38,7 @@ export const Mission: React.FC = () => {
 
               <div className="mt-6">
                 <Link
-                  href="#"
+                  href="lien-he"
                   className="inline-block font-semibold text-[12px] py-[11px] px-[22px] bg-[#D21E2B] text-[#FFF] rounded-[50px]"
                 >
                   Contact Us

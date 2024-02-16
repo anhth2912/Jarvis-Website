@@ -27,8 +27,8 @@ export const Footer: React.FC = () => {
                 </li>
                 <li className="text-[15px] font-normal text-[#aaa] py-[6px] list-none flex gap-3">
                   <i className="fa fa-phone" aria-hidden="true"></i>
-                  <a href="tel:+84 987 654 321" className="">
-                    +84 987 654 321
+                  <a href="tel:+84 349 673 836" className="">
+                    +84 349 673 836
                   </a>
                 </li>
               </ul>

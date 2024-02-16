@@ -24,7 +24,8 @@ export const Banner: React.FC = () => {
           </div>
           <div className="mt-[20px]">
             <a
-              href="nang-luc"
+              // href="nang-luc"
+              href="#"
               // eslint-disable-next-line max-len
               className="inline-block text-sm font-medium py-[13px] px-[25px] bg-[#D21E2B] rounded-3xl text-[#fff] ease-in transition-all duration-500"
             >
