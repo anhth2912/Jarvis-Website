@@ -1,6 +1,9 @@
 import Link from 'next/link'
 import { ChildrenListItem } from '../../components/common/ChildrenList'
+import { contactEmail, contactPhoneNumber } from '../../constants/common'
 import { business } from '../../constants/footer'
+import { formatPhoneNumber } from '../../utils/formatString'
+import Image from 'next/image'
 
 export const Footer: React.FC = () => {
   return (
@@ -10,7 +13,14 @@ export const Footer: React.FC = () => {
           <div className="col-span-3 md:col-span-1">
             <div>
               <div className="mb-4">
-                <h1 className="text-[70px] font-semibold text-white">JARVIS</h1>
+                {/* <h1 className="text-[70px] font-semibold text-white">JARVIS</h1> */}
+                <Image
+                  src="/logo/logo.png"
+                  alt="image for recruitment"
+                  width={512}
+                  height={512}
+                  className="w-full max-w-[200px] h-auto duration-300"
+                />
               </div>
               <h3 className="text-lg font-normal text-white mb-0">CÔNG TY CP GIẢI PHÁP CÔNG NGHỆ JARVIS</h3>
               <div className="section-heading-line mt-0 mb-5"></div>
@@ -21,14 +31,14 @@ export const Footer: React.FC = () => {
                 </li>
                 <li className="text-[15px] font-normal text-[#aaa] py-[6px] list-none flex gap-3">
                   <i className="fa fa-envelope-o" aria-hidden="true"></i>
-                  <a href="mailto:support@jarvis.com" className="hover-style-link">
-                    support@jarvis.com
+                  <a href={`mailto:${contactEmail}`} className="hover-style-link">
+                    {contactEmail}
                   </a>
                 </li>
                 <li className="text-[15px] font-normal text-[#aaa] py-[6px] list-none flex gap-3">
                   <i className="fa fa-phone" aria-hidden="true"></i>
-                  <a href="tel:+84 349 673 836" className="">
-                    +84 349 673 836
+                  <a href={`tel:${contactPhoneNumber}`} className="">
+                    {formatPhoneNumber(contactPhoneNumber)}
                   </a>
                 </li>
               </ul>

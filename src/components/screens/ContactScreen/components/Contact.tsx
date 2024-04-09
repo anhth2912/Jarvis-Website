@@ -1,4 +1,30 @@
+import { ReactElement } from 'react'
+import { contactEmail, contactPhoneNumber } from '../../../../constants/common'
+
+type Contact = {
+  icon: ReactElement
+  title: string
+  value: string
+}
+
 export const Contact: React.FC = () => {
+  const contacts: Contact[] = [
+    {
+      icon: <i className="fa fa-phone"></i>,
+      title: 'Điện thoại',
+      value: contactPhoneNumber,
+    },
+    {
+      icon: <i className="fa fa-envelope-open"></i>,
+      title: 'Email',
+      value: contactEmail,
+    },
+    {
+      icon: <i className="fa fa-globe"></i>,
+      title: 'Địa chỉ văn phòng',
+      value: 'Số 99 Hoàng Ngân, Phường Nhân Chính, Quận Thanh Xuân, Thành phố Hà Nội',
+    },
+  ]
   return (
     <div className="py-5 bg-[#fefefe]">
       <div className="container mx-auto">
@@ -31,41 +57,19 @@ export const Contact: React.FC = () => {
             </div>
           </div>
           <div className="col-span-12 sm:col-span-5 px-4">
-            <div className="border-b border-b-[#ECECEC] py-[25px] mb-0 duration-500">
-              <div className="grid grid-cols-12">
-                <div className="col-span-4 md:col-span-2 w-[60px] h-[60px] flex justify-center items-center bg-[#D21E2B] text-[#fff] rounded-full">
-                  <i className="fa fa-phone"></i>
-                </div>
-                <div className="col-span-8 md:col-span-10 ml-6">
-                  <h4 className="text-[#111] text-lg font-semibold mb-[10px]">Điện thoại</h4>
-                  <p className="text-[#999] text-[15px] font-medium leading0[1.7]">+84 349 673 836</p>
-                </div>
-              </div>
-            </div>
-            <div className="border-b border-b-[#ECECEC] py-[25px] mb-0 duration-500">
-              <div className="grid grid-cols-12">
-                <div className="col-span-4 md:col-span-2 w-[60px] h-[60px] flex justify-center items-center bg-[#D21E2B] text-[#fff] rounded-full">
-                  <i className="fa fa-envelope-open"></i>
-                </div>
-                <div className="col-span-8 md:col-span-10 ml-6">
-                  <h4 className="text-[#111] text-lg font-semibold mb-[10px]">Email</h4>
-                  <p className="text-[#999] text-[15px] font-medium leading0[1.7]">contact@jarvis.com.vn</p>
+            {contacts.map((contact, index) => (
+              <div key={index} className="border-b border-b-[#ECECEC] py-[25px] mb-0 duration-500">
+                <div className="grid grid-cols-12">
+                  <div className="col-span-4 md:col-span-2 w-[60px] h-[60px] flex justify-center items-center bg-[#D21E2B] text-[#fff] rounded-full">
+                    {contact.icon}
+                  </div>
+                  <div className="col-span-8 md:col-span-10 ml-6">
+                    <h4 className="text-[#111] text-lg font-semibold mb-[10px]">{contact.title}</h4>
+                    <p className="text-[#999] text-[15px] font-medium leading0[1.7]">{contact.value}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="border-b border-b-[#ECECEC] py-[25px] mb-0 duration-500">
-              <div className="grid grid-cols-12">
-                <div className="col-span-4 md:col-span-2 w-[60px] h-[60px] flex justify-center items-center bg-[#D21E2B] text-[#fff] rounded-full">
-                  <i className="fa fa-globe"></i>
-                </div>
-                <div className="col-span-8 md:col-span-10 ml-6">
-                  <h4 className="text-[#111] text-lg font-semibold mb-[10px]">Địa chỉ văn phòng</h4>
-                  <p className="text-[#999] text-[15px] font-medium leading0[1.7]">
-                    Số 99 Hoàng Ngân, Phường Nhân Chính, Quận Thanh Xuân, Thành phố Hà Nội
-                  </p>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

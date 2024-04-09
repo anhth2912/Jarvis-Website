@@ -1,3 +1,6 @@
+export const contactEmail = process.env.NEXT_PUBLISH_EMAIL || 'Contact@jarvis.com.vn'
+export const contactPhoneNumber = process.env.NEXT_PUBLISH_PHONE_NUMBER || '+84559484858'
+
 export enum FEATURE {
   ABOUT_US = 'ABOUT_US',
   VIDEO_DEMO = 'VIDEO_DEMO',
@@ -43,11 +46,13 @@ export const navbarTab = [
 export const contacts = [
   {
     src: '/icons/phone.svg',
-    title: '+84 349 673 836',
+    title: contactPhoneNumber,
+    action: `tel:${contactPhoneNumber}`,
   },
   {
     src: '/icons/mail.svg',
-    title: 'contact@jarvis.com.vn',
+    title: contactEmail,
+    action: `mailto:${contactEmail}`,
   },
 ]
 

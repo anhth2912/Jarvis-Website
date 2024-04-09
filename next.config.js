@@ -19,6 +19,8 @@ const nextConfig = {
   },
   env: {
     GOOGLE_MAPS_API_KEY: process.env.GOOGLE_MAPS_API_KEY,
+    NEXT_PUBLISH_PHONE_NUMBER: process.env.NEXT_PUBLISH_PHONE_NUMBER,
+    NEXT_PUBLISH_EMAIL: process.env.NEXT_PUBLISH_EMAIL,
   },
 }
 

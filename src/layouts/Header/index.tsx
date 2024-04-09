@@ -73,14 +73,8 @@ export const Header = () => {
         <nav className="bg-white border-gray-20 h-[95px] ">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4 container h-full relative">
             <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-              <Image
-                src="https://flowbite.com/docs/images/logo.svg"
-                className="h-8 w-auto"
-                width={32}
-                height={32}
-                alt="Jarvis logo"
-              />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap">Jarvis</span>
+              <Image src="/logo/logo.png" className="h-12 w-auto" width={48} height={48} alt="Jarvis logo" />
+              {/* <span className="self-center text-2xl font-semibold whitespace-nowrap">Jarvis</span> */}
             </a>
             <button
               ref={toggleRef}
